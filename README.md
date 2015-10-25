@@ -5,5 +5,5 @@ Justin Johnson Z23136514
 FAU Embedded Systems Design, Fall 2015
 Bluetooth Echo
 Baudrate = 9600
-RXD = P1.1
-TXD = P1.2
+TXD = P1.1
+RXD = P1.2
