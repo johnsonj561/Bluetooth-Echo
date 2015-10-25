@@ -25,7 +25,7 @@ int main(void){
   DCOCTL = CALDCO_1MHZ;
 
   /*** Set-up GPIO ***/
-  P1SEL = BIT1 + BIT2;					// P1.1 = RXD, P1.2=TXD
+  P1SEL = BIT1 + BIT2;					// P1.1 = TXD, P1.2=RXD
   P1SEL2 = BIT1 + BIT2;
   P1DIR |= BIT6 + BIT0;					// P1.1 and P1.6 set as output
   P1OUT &= ~(BIT6 + BIT0);				// P1.1 and P1.6 OFF
