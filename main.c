@@ -24,7 +24,11 @@ int main(void){
   BCSCTL1 = CALBC1_1MHZ;				// Set DCO
   DCOCTL = CALDCO_1MHZ;
 
+<<<<<<< HEAD
   /** Set-up GPIO **/
+=======
+  /*** Set-up GPIO ***/
+>>>>>>> dee1e6d4e6773e971d2e78e2f085ed588f332cd6
   P1SEL = BIT1 + BIT2;					// P1.1 = TXD, P1.2=RXD
   P1SEL2 = BIT1 + BIT2;
 
